@@ -5,7 +5,7 @@ import com.qa.datatypes.Datatypes;
 
 public class Packages {
 	
-	public static int randomReturn() {
+	public static void randomReturn() {
 //		Random myObject = new Random();
 // 		return myObject.nextInt();
 		
