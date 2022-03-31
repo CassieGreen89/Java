@@ -25,6 +25,14 @@ public class ArrayExercises {
 			System.out.println(arrayTwo[i]);
 		}
 	}
+
+	
+	public static void arrayTimesTen() {
+		for(int i = 0; i < arrayTwo.length; i++) {
+			arrayTwo[i] = i * 10;
+			System.out.println(arrayTwo[i]);
+		}
+	}
 	
 	
 	

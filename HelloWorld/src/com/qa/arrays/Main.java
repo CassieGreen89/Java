@@ -9,7 +9,8 @@ public class Main {
 		ArrayExercises.myArrayLoop();
 		System.out.println();
 		ArrayExercises.arrayLoopTwo();
-		
+		System.out.println();
+		ArrayExercises.arrayTimesTen();
 		
 	}
 
