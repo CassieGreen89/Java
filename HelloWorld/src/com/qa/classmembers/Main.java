@@ -6,6 +6,7 @@ public class Main {
 		Customer secondCustomer = new Customer("John", "Johnson");
 		Customer thirdCustomer = new Customer("Fred", "Fredson");
 		Customer thirdCustomer2 = new Customer("Fred", "Fredson");
+		Customer fourthCustomer = new Customer("Alice");
 
 		firstCustomer.setFirstName("Samwise");
 		secondCustomer.setFirstName("Johnny");

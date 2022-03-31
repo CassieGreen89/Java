@@ -31,20 +31,27 @@ public class ChangeCalculator {
 						if(remainingChange >= 10) {
 							tenPoundCount = Math.floor(remainingChange / 10);
 							remainingChange -= (10 * tenPoundCount);
-							System.out.println(tenPoundCount + " £10 note(s)");
+							System.out.println((int)tenPoundCount + " £10 note(s)");
 						}
 						else {
 							if(remainingChange >= 5) {
 								fivePoundCount = Math.floor(remainingChange / 5);
 								remainingChange -= (5 * fivePoundCount);
-								System.out.println(fivePoundCount + " £5 note(s)");
+								System.out.println((int)fivePoundCount + " £5 note(s)");
 							}
 							else {
-								if(remainingChange > 1) {
+								if(remainingChange >= 1) {
 									poundCount = Math.floor(remainingChange / 1);
 									remainingChange -= (1 * poundCount);
-									System.out.println(poundCount + " £1 coin(s)");
+									System.out.println((int)poundCount + " £1 coin(s)");
 								}
+//								else {
+//									if(remainingChange >= 0.01) {
+//										penniesCount = remainingChange / 0.01;
+//										remainingChange -= (0.01 * penniesCount);
+//										System.out.println(penniesCount + " pence");
+//									}
+//								}
 							}
 						}
 					}

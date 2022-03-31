@@ -7,9 +7,13 @@ public class Customer {
 	private String lastName;
 	private static int numberOfPeople;
 	
-	public Customer(String firstName, String lastName) {
+	protected Customer(String firstName, String lastName) {
 		this.firstName = firstName;
 		this.lastName = lastName;
+		this.numberOfPeople ++;
+	}
+	protected Customer(String firstName) {
+		this.firstName = firstName;
 		this.numberOfPeople ++;
 	}
 
