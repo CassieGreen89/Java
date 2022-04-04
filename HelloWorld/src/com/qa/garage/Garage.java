@@ -4,18 +4,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Garage {
-	    public List<String> garageList = new ArrayList<>();
+	    public List<Vehicle> garageList = new ArrayList<>();
 	    
 	    public void addToGarage() {
-	    	garageList.add("Car");
-	    	garageList.add("Motorbike");
-	    	garageList.add("Lorry");
+	    	garageList.add(new Car(1, "Car", true));
+	    	garageList.add(new Motorbike(2, "Motorbike", 2));
+	    	garageList.add(new Lorry(3, "Lorry", "Cabbages"));
 	    	System.out.println(garageList);
 	    }
 
 	    public void costCalc() {
-	    	for(String vehicle: garageList) {
-	    		if(vehicle == "Car") {
+	    	for(Vehicle Vehicle : garageList) {
+	    		if(Car.getVehicleType().equals("Car")) {
 	    			System.out.println(vehicle + " price: 8000");
 	    		}
 	    		else if(vehicle == "Lorry") {
@@ -27,6 +27,16 @@ public class Garage {
 	    	
 	    	}
 	    }
-}
+	    
+	    public void addVehicle(String myVehicle) {
+	    	garageList.add(myVehicle);
+	    	System.out.println(garageList);
+	    }
+	    
+//	    public void removeVehicle(vehicle) {
+//	    	garageList.re
+//	    }
+	    	
+	    }
 
 

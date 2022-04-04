@@ -1,12 +1,12 @@
 package com.qa.garage;
 
 public class Vehicle {
-	private String sound = "Vroom";
-	private boolean drives = true;
+	protected String vehicleType;
+	protected int idNumber;
 		
-	protected Vehicle(String sound, boolean drives) {
-			this.sound = sound;
-			this.drives = drives;
+	protected Vehicle(int idNumber, String vehicleType) {
+		this.idNumber = idNumber;
+		this.vehicleType = vehicleType;
 			}
 		
 	}
