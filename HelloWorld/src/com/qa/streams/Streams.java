@@ -9,7 +9,7 @@ public class Streams {
 
 	public void exerciseOne() {
 		List<String> exOne = Arrays.asList("Michael", "Dean", "James", "Chris");
-		exOne.stream().forEach(n -> System.out.println(n));
+		exOne.stream().forEach(n -> System.out.println("Hello" + n));
 	}
 
 	public void exerciseTwo() {

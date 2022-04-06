@@ -1,16 +1,17 @@
 package com.qa.edcalculator;
 
-import com.qa.edcalculator.Menu;
-import com.qa.edcalculator.UtilityScanner;
+import java.util.Optional;
 
 public class Runner {
 
 	public static void main(String[] abc) throws ArithmeticException {
 		
-		Menu menu = new Menu();
-		menu.run();
-		UtilityScanner.close();
-		
+//		Menu menu = new Menu();
+//		menu.run();
+//		UtilityScanner.close();
+		Calculator calc = new Calculator();
+		Optional<Double> dub;
+		calc.isNull(Optional.empty());
 	}
 
 }

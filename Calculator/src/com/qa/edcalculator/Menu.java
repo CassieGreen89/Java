@@ -1,7 +1,7 @@
 package com.qa.edcalculator;
 
-import com.qa.calc.Calculator;
-import com.qa.utility.UtilityScanner;
+import com.qa.edcalculator.Calculator;
+import com.qa.edcalculator.UtilityScanner;
 
 public class Menu {
 	
