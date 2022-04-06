@@ -10,7 +10,6 @@ public class Runner {
 //		menu.run();
 //		UtilityScanner.close();
 		Calculator calc = new Calculator();
-		Optional<Double> dub;
 		calc.isNull(Optional.empty());
 	}
 
