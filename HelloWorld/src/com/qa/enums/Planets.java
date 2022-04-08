@@ -10,9 +10,3 @@ public enum Planets {
 		this.colour = colour;
 	}
 	
-	public static void main String([] args) {
-		forEach(Planet p : Planets.values()) {
-			System.out.println("Planet" p "is the colour" Planet.values());
-			}
-		}
-}
